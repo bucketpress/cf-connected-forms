@@ -18,7 +18,7 @@ jQuery( function( $ ){
 		if( typeof caldera_conditionals === "undefined" || typeof caldera_conditionals[inst_id] === "undefined"){
 			return;
 		}
-		if( typeof calders_forms_init_conditions === 'function'){
+		if( typeof caldera_forms_init_conditions === 'function'){
 			calders_forms_init_conditions();
 		}
 	}
